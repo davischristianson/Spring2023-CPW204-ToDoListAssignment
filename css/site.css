@@ -1,6 +1,22 @@
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgb(48, 47, 47);
+}
+
+h1 {
+    color: crimson;
+}
+
+label {
+    color: crimson;
+}
+
+span {
+    color: red;
+}
+
 .todo {
-    width: 30%;
-    box-sizing: border-box;
     background-color: lightcoral;
     padding: .5em;
     border-radius: .85em;
@@ -8,8 +24,13 @@
     cursor: pointer;
 }
 
+h3 {
+    color: crimson;
+}
+
 .todo h3 {
     margin: 0px;
+    color: black;
 }
 
 .todo p {
@@ -22,10 +43,22 @@
 }
 
 #completed-tasks {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     border: .3em solid lightgreen;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
 }
 
 #incomplete-tasks {
+    box-sizing: border-box;
+    text-align: center;
+    width: 50%;
     border: .3em solid crimson;
     margin-bottom: 1em;
+    float: left;
 }
