@@ -5,8 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo List</title>
     <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="https://unpkg.com/js-datepicker/dist/datepicker.min.css">
 </head>
 <body>
-    
+    <h1>ToDo List</h1>
+
+    <label for="task-name">Name of task</label>
+    <input type="text" id="task-name">
+    <span>*</span>
+    <br>
+
+    <label for="due-date">Due Date</label>
+    <input type="text" id="due-date">
+    <span>*</span>
+    <br>
+
+    <input type="checkbox" id="is-completed">
+    <label for="is-completed">Task completed?</label>
+    <br>
+
+    <input type="button" id="add-task" value="Add Task">
+    <br> 
+
+    <h3>ToDo List</h3>
+    <div id="incomplete-tasks"></div>
+    <div id="completed-tasks"></div>
+
+
+    <script src="https://unpkg.com/js-datepicker"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
