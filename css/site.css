@@ -1,0 +1,31 @@
+.todo {
+    width: 30%;
+    box-sizing: border-box;
+    background-color: lightcoral;
+    padding: .5em;
+    border-radius: .85em;
+    margin: 1em;
+    cursor: pointer;
+}
+
+.todo h3 {
+    margin: 0px;
+}
+
+.todo p {
+    margin: 0px;
+}
+
+.completed {
+    background-color: greenyellow;
+    text-decoration: line-through;
+}
+
+#completed-tasks {
+    border: .3em solid lightgreen;
+}
+
+#incomplete-tasks {
+    border: .3em solid crimson;
+    margin-bottom: 1em;
+}
